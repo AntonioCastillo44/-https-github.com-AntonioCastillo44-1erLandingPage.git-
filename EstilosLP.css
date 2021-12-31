@@ -1,0 +1,162 @@
+*{
+
+    font-family: monospace; 
+   
+}
+
+.pfondo {
+    background-image: url("img/1erFondo.jpg");
+}
+
+.encabezado{
+    padding: 15px 15px;
+    
+}
+
+.logo{
+    display: flex; 
+    float: left;
+    
+}
+
+.linea {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: auto;
+  
+
+   
+}
+.redes {
+    display: flex;
+    justify-content: right; 
+    gap: 15px;
+   
+}
+
+.menu {
+    
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+
+    }
+    .boton {
+        background: #FFD600;
+        width: 100%;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+        padding: 12px;
+        border-radius: 110px;
+    }
+
+    .titulo {
+        display: grid;
+        text-align: center;
+        grid-template-columns: repeat(2, 1fr);
+        font-size: 350%
+    }
+
+    .titulo img {
+        width: 100%;
+        height: auto;
+     border:rgb(255, 208, 0) solid 3px;
+     border-radius: 20px;
+        
+    }
+
+    .titulo2 {
+        background: #FFD600;
+        width: auto;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 100px;
+       
+    }
+
+
+    .cuerpo {
+        display: grid;
+        text-align: center;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 100px;
+    }
+
+    
+
+    .cuerpo img {
+        
+        border:rgb(255, 208, 0) solid 3px;
+        border-radius: 20px;
+
+    }
+
+    .sfondo {
+    background-image: url("img/2doFondo.jpg");
+    background-size: 115%;
+    background-repeat: no-repeat;
+    padding: 50px 0px 0px 0px;
+
+    }
+
+
+
+    .Blog {
+	display:  grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    }
+
+    .Blog img {
+        width: 100%;
+        height: auto;
+        border:rgb(255, 208, 0) solid 3px;
+        border-radius: 20px;
+    }
+
+    #Blog2 h1 {
+        text-align: center;
+        font-size: 250%
+
+    }
+
+    #Blog2 article {
+        padding: 5px 50px ;
+        font-size: 110%
+    }
+
+    section{
+       background: rgba(255, 238, 0, 0.5);
+       padding: 70px 0 70px;
+    }
+
+    .PiePagina{
+        display: flex;
+        justify-content: right; 
+        background: rgba(0, 0, 0, 0.849);
+        color: white;     
+           
+    }
+
+    .PiePagina img {
+        display:block;
+        margin:auto;
+        width: 70%;
+        height: auto;
+    }
+
+    ul li{
+        list-style: none;
+        margin: 20px;
+        }
+
+    .clearfix {
+        clear:  both;
+       }
